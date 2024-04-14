@@ -188,6 +188,11 @@ WHERE emp_name LIKE 'A%';
 
 11.Display the details of the employee whose name has at least three characters and salary greater than 20000.
 
+SELECT *
+FROM Employee
+WHERE LENGTH(emp_name) >= 3
+AND salary > 20000;
+
 emp_no |  emp_name       | dob        | address                  | mobile_no   | dept_no | salary | designation      
 -------|-----------------|------------|--------------------------|-------------|---------|--------|-------------------
 emp1   | John Doe        | 1990-05-15 | 123 Main St, City       | 7994924584  | D01     | 45000  | Manager
