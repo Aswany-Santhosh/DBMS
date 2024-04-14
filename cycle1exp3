@@ -69,6 +69,7 @@ emp8   | Sophia Martinez
 4. Display emp_no, emp_name , designation, deptno and salary of employees in the 
 descending order of salary. 
 
+--> SELECT emp_no, emp_name, dept_no, salary, designation FROM Employee ORDER BY salary DESC;
 
 emp_no |  emp_name       | dept_no | salary | designation      
 -------|-----------------|---------|--------|-------------------
