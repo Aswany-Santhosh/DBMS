@@ -206,7 +206,7 @@ emp8   | Sophia Martinez | 1990-12-30 | 345 Walnut St, Urban    | 1112223333  | 
 
 12. Display the details of employees with empid ‘emp1’, ‘emp2’ and ‘emp6’.
 
-SELECT * FROM Employee WHERE emp_no IN ('emp1','emp2','emp3');
+SELECT * FROM Employee WHERE emp_no IN ('emp1','emp2','emp6');
 
 emp_no |  emp_name       | dob        | address                  | mobile_no   | dept_no | salary | designation      
 -------|-----------------|------------|--------------------------|-------------|---------|--------|-------------------
