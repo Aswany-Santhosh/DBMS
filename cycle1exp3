@@ -92,8 +92,8 @@ emp9   | Matthew Anderson| D05     | 7000   | Intern
 
 --> SELECT emp_no,emp_name FROM EMPLOYEE WHERE salary BETWEEN 2000 AND 5000;
 
-
-
+emp_no |  emp_name       |
+emp9   | Matthew Anderson|
 
 
 6.
